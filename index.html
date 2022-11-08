@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dawid Kryszyn</title>
+</head>
+    <body>
+     <!--Header -->
+     <header class="active">
+        <div class="logo">
+            <h1>Dawid Kryszyn</h1>
+            <h3>Front-End Developer</h3>
+        </div>
+        <ul class="menu ">
+            <li data-key="home" class="menu-link">Home</li>
+            <li data-key="projects"class="menu-link">Projekty</li>
+            <li data-key="about"class="menu-link">O mnie</li>
+            <li data-key="contact"class="menu-link">Kontakt</li>
+        </ul>
+        <button class="burger ">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+       
+     </header>
+        <!--cta -->
+    <section class="home">
+        <img class = "home-image"src="icons/landingmain.jpg" alt="Landing Img" srcset="">
+        <div class="home-content">
+            <h1>Cześć,mam na imię Dawid :)</h1>
+            <p>Zapraszam do zapoznania się z moją stroną  </p>
+            <div class="home-icons">
+                <img src="icons/linkedinicon.png" alt="Linkedin">
+                <img src="icons/githubicon.png" alt="Github">
+            </div>
+        </div>
+ 
+            <button class="scroll-down-button">
+                <div class="scroll-down-circle"></div>
+            </button>
+</section>
+    
+<main class="projects">
+    <div class="section-title">
+        <p class="section-title-main">Pro</p>
+        <p class="section-title-sub">jekty</p>
+    
+    </div>
+    <div class="projects-content">
+        <div class="project-content-card">
+            <img src="/icons/project.jpg" alt="project img" >
+            <div class="project-info">
+                <p class="project-name"> Edytowalna lista zadań</p>
+                <a href="http://ydawe.github.io/lista-zadan/" class="project-link">
+                    <img src="icons/code.png" alt="code-icon">
+                </a>
+            </div>
+            <p class="project-description">
+                Stworzyłem prostą listę zadań na potrzeby mojego portfolio.
+                Można w niej dodawać,usuwać oraz edytwać elementy. Planuje dodać remaindery 
+                oraz zapisywanie listy w local storage.
+            </p>
+        <div class="project-technolgies">
+            <p class="technologies-title">
+                Użyte technologie:
+            </p>
+            <div class="project-icons">
+                <img src="icons/html.png" alt="html-icon">
+                <img src="icons/css.png" alt="css-icon">
+                <img src="icons/js.png" alt="js-icon">
+
+            </div>
+        </div>
+        </div>
+        <div class="project-content-card">
+            <img src="/icons/project2.jpg" alt="project img" >
+            <div class="project-info">
+                <p class="project-name"> System zgłaszania błędów</p>
+                <a href="http://ydawe.github.io/report-system-prototype/" class="project-link">
+                    <img src="icons/code.png" alt="code-icon">
+                </a>
+            </div>
+            <p class="project-description">
+              Nadal pracuję nad tym projektem. Jest to system zgłaszania błędów w firmie.  
+                W tym momencie jest to tylko prototyp,ale planuję dodać możliwość logowania,
+                rejestracji oraz dodawania zgłoszeń,które będą zapisywane na serwerze.
+            </p>
+        <div class="project-technolgies">
+            <p class="technologies-title">
+                Technologies used
+            </p>
+            <div class="project-icons">
+                <img src="icons/html.png" alt="html-icon">
+                <img src="icons/css.png" alt="css-icon">
+                <img src="icons/js.png" alt="js-icon">
+
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+</main>
+<!--ABOUT   -->
+<article class="about">
+   
+    <div class="section-title">
+        <p class="section-title-main">Kim</p>
+        <p class="section-title-sub">jestem?</p>
+    
+    </div>
+    <div class="about-content">
+    <p class="about-description">
+        Cześć, nazywam się Dawid i zaczynam swoją przygodę w IT.
+        Od dziecka interesuję się komputerami a najbardziej kodowaniem stron, i w tej dziedzinie chciałbym się rozwijać.
+        W wolnym czasie lubię grać w gry komputerowe,szachy albo w piłkę nożna.        
+    </p>
+
+    
+    <img src="icons/about.jpg" alt="about me"></div>
+</article>
+<!--CONTACT -->
+<div class="section-title">
+    <p class="section-title-main">Skontaktuj</p>
+    <p class="section-title-sub">się ze mną</p>
+</div>
+<section class="contact">
+   <img src="icons/mail.jpg" alt="mail"/>
+   <form class="contact-form">
+    <div class="contact-form-field">
+        <label for="email">Email</label>
+        <input type="text" name="email" required/>
+    </div>
+    <div class="contact-form-field">
+        <label for="name">Imię</label>
+        <input type="text" name="name" required/>
+    </div>
+    <div class="contact-form-field">
+        <label for="Message">Wiadomość</label>
+        <textarea name="message"  cols="30" rows="8"></textarea>
+        
+    </div>
+    <button class="contact-form-btn">Wyślij</button>
+   </form>
+</section>
+<footer>Copyright &copy; 2022 Dawid Kryszyn.</footer>
+
+    <script src="main.js"></script>
+    </body>
+</html>
