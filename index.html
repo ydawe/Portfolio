@@ -16,9 +16,9 @@
         </div>
         <ul class="menu ">
             <li data-key="home" class="menu-link">Home</li>
-            <li data-key="projects"class="menu-link">Projekty</li>
-            <li data-key="about"class="menu-link">O mnie</li>
-            <li data-key="contact"class="menu-link">Kontakt</li>
+            <li data-key="projects"class="menu-link">Projects</li>
+            <li data-key="about"class="menu-link">About Me</li>
+            <li data-key="contact"class="menu-link">Contact</li>
         </ul>
         <button class="burger ">
             <span></span>
@@ -31,8 +31,8 @@
     <section class="home">
         <img class = "home-image"src="icons/landingmain.jpg" alt="Landing Img" srcset="">
         <div class="home-content">
-            <h1>Cześć,mam na imię Dawid :)</h1>
-            <p>Zapraszam do zapoznania się z moją stroną  </p>
+            <h1>Hi, I'm Dawid :)</h1>
+            <p>And this is my portfolio website </p>
             <div class="home-icons">
                 <img src="icons/linkedinicon.png" alt="Linkedin">
                 <img src="icons/githubicon.png" alt="Github">
@@ -47,26 +47,27 @@
 <main class="projects">
     <div class="section-title">
         <p class="section-title-main">Pro</p>
-        <p class="section-title-sub">jekty</p>
+        <p class="section-title-sub">jects</p>
     
     </div>
     <div class="projects-content">
         <div class="project-content-card">
             <img src="/icons/project.jpg" alt="project img" >
             <div class="project-info">
-                <p class="project-name"> Edytowalna lista zadań</p>
+                <p class="project-name"> Task List</p>
                 <a href="http://ydawe.github.io/lista-zadan/" class="project-link">
                     <img src="icons/code.png" alt="code-icon">
                 </a>
             </div>
             <p class="project-description">
-                Stworzyłem prostą listę zadań na potrzeby mojego portfolio.
-                Można w niej dodawać,usuwać oraz edytwać elementy. Planuje dodać remaindery 
-                oraz zapisywanie listy w local storage.
+                I made a simple to-do list for my portfolio. I used HTML, CSS and JavaScript.
+                You can add and delete tasks, You can also edit them.  I will add more features such as
+                saving tasks in local storage and remainding about tasks.
+
             </p>
         <div class="project-technolgies">
             <p class="technologies-title">
-                Użyte technologie:
+                Technologies used:
             </p>
             <div class="project-icons">
                 <img src="icons/html.png" alt="html-icon">
@@ -79,19 +80,19 @@
         <div class="project-content-card">
             <img src="/icons/project2.jpg" alt="project img" >
             <div class="project-info">
-                <p class="project-name"> System zgłaszania błędów</p>
+                <p class="project-name">Internal communication system
+                </p>
                 <a href="http://ydawe.github.io/report-system-prototype/" class="project-link">
                     <img src="icons/code.png" alt="code-icon">
                 </a>
             </div>
             <p class="project-description">
-              Nadal pracuję nad tym projektem. Jest to system zgłaszania błędów w firmie.  
-                W tym momencie jest to tylko prototyp,ale planuję dodać możliwość logowania,
-                rejestracji oraz dodawania zgłoszeń,które będą zapisywane na serwerze.
+              I'm still working on this project. It's a prototype of internal communication system which can be used 
+                to report problems. I will add login and registration system, and also a database to store reports.
             </p>
         <div class="project-technolgies">
             <p class="technologies-title">
-                Użyte technologie:
+                Technologies used:
             </p>
             <div class="project-icons">
                 <img src="icons/html.png" alt="html-icon">
@@ -109,15 +110,18 @@
 <article class="about">
    
     <div class="section-title">
-        <p class="section-title-main">Kim</p>
-        <p class="section-title-sub">jestem?</p>
+        <p class="section-title-main">Who</p>
+        <p class="section-title-sub">am I?</p>
     
     </div>
     <div class="about-content">
     <p class="about-description">
-        Cześć, nazywam się Dawid i zaczynam swoją kariere.
-        Od dziecka interesuję się komputerami a najbardziej kodowaniem stron, i w tej dziedzinie chciałbym się rozwijać.
-        W wolnym czasie lubię grać w gry komputerowe,szachy i w piłkę nożna. Uczę się, aby zostać senior Front-End developerem i pracować w swoim zawodzie.
+        Hi, my name is Dawid and I am at the beginning of my career in the IT. I love technology and 
+        that's why I graduated from high school with a specialization in IT.Since I remember, he has been interested in computers. 
+        I started playing games and ended up programming webapps. Apart from IT, I am interested in football and chess.
+
+
+   
     </p>
 
     
@@ -125,26 +129,27 @@
 </article>
 <!--CONTACT -->
 <div class="section-title">
-    <p class="section-title-main">Skontaktuj</p>
-    <p class="section-title-sub">się ze mną</p>
+    <p class="section-title-main">Contact</p>
+    <p class="section-title-sub">me !</p>
 </div>
 <section class="contact">
    <img src="icons/mail.jpg" alt="mail"/>
    <form class="contact-form">
     <div class="contact-form-field">
+        <label for="hold" style=" color:red; font-size:1 rem; font-weight:700;">FOR NOW THE CONTACT FORM IS TURNED OFF </label><br>
         <label for="email">Email</label>
         <input type="text" name="email" required/>
     </div>
     <div class="contact-form-field">
-        <label for="name">Imię</label>
+        <label for="name">Name</label>
         <input type="text" name="name" required/>
     </div>
     <div class="contact-form-field">
-        <label for="Message">Wiadomość</label>
+        <label for="Message">Message</label>
         <textarea name="message"  cols="30" rows="8"></textarea>
         
     </div>
-    <button class="contact-form-btn">Wyślij</button>
+    <button class="contact-form-btn">Send</button>
    </form>
 </section>
 <footer>Copyright &copy; 2022 Dawid Kryszyn.</footer>
