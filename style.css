@@ -434,10 +434,17 @@ ul{
     padding: 1rem;
   }
   
-  .project-content-card img {
+   .project-content-card img {
     width: 70%;
     display: block;
     margin: 0 auto;
+    transition: all 0.3s ease-in-out;
+  }
+  .project-content-card img:hover{
+    
+    transform: scale(1.1); 
+    padding-bottom: 10px;
+   
   }
   
 .project-info{
