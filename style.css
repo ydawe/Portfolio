@@ -137,6 +137,7 @@ ul{
 }
 
 .burger{
+    display:none;
     height: 3.4rem;
     width: 3.4rem;
     display: flex;
